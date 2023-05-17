@@ -1,19 +1,16 @@
 server:
-    port: 8090
+  port: 8090
 
-//DB ??
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/db_name?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/mysql?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
     username: root
-    password: 0000
+    password: 1225
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
-    database-platform: org.hibernate.dialect.MySQL8Dialect
-    hibernate:
-      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show_sql: true
     properties:
       hibernate:
-        show-sql: true
-        format-sql: true
+        format_sql: true

@@ -1,6 +1,6 @@
-package Object.JPO;
+package student.Object.JPO;
 
-import Object.ObjectClass.Student;
+import student.Object.ObjectClass.Student;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -17,7 +17,7 @@ import org.springframework.beans.BeanUtils;
 public class StudentJPO {
 
     @Id
-    private int id;
+    private String id;
     //student name
     private String name;
 

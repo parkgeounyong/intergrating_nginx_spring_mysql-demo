@@ -1,8 +1,5 @@
-package StudentServer;
+package student;
 
-import Object.ObjectClass.Student;
-import Repository.JPA.studentRepository_JPA;
-import Repository.db_lmpl.StudentStore;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

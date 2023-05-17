@@ -1,14 +1,14 @@
-package Repository;
+package student.Repository;
 
-import Object.ObjectClass.Student;
+import student.Object.ObjectClass.Student;
 
 import java.util.List;
 
 public interface StudentRepository_lmpl {
     public void create(Student student);
     public void update(Student student);
-    public void delete(int id);
-    public Student find(int id);
+    public void delete(String id);
+    public Student find(String id);
     public List<Student> findAll();
 
 }
