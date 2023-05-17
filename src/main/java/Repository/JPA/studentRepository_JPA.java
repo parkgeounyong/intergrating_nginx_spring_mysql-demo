@@ -3,13 +3,15 @@ package Repository.JPA;
 import Object.JPO.StudentJPO;
 import Object.ObjectClass.Student;
 import Repository.db_lmpl.StudentStore;
-import Repository.studentRepository_lmpl;
+import Repository.StudentRepository_lmpl;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class studentRepository_JPA implements studentRepository_lmpl {
+@Repository
+public class studentRepository_JPA implements StudentRepository_lmpl {
 
     StudentStore studentStore;
 
