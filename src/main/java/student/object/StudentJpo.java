@@ -1,6 +1,5 @@
-package student.Object.JPO;
+package student.object;
 
-import student.Object.ObjectClass.Student;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -13,20 +12,24 @@ import org.springframework.beans.BeanUtils;
 @Getter
 @Setter
 @NoArgsConstructor
-@Table(name="TRAVEL_CLUB")
-public class StudentJPO {
-
+@Table(name="TEST")
+public class StudentJpo {
     @Id
-    private String id;
-    //student name
+    private Long id;
     private String name;
 
-    public StudentJPO(Student student){
-        //속성 이름 같을 때 대응되는 속성으로 업데이트
+    //domain > Jpo
+    public StudentJpo(Student student){
         BeanUtils.copyProperties(student, this);
     }
-    public Student toDomain(){
-        Student student=new Student(this.id, this.name);
-        return  student;
+    public StudentJpo(Long id, String name){
+        this.id=id;
+        this.name=name;
+
     }
+    //jpo>domiain
+    public Student toDomain(){
+        return new Student(this.id, this.name);
+    }
+
 }
