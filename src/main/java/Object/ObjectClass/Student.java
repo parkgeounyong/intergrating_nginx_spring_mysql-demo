@@ -18,10 +18,8 @@ public class Student {
     //생성자
     public Student(){
         //해당 클래스에서 super 사용 이유 > 초기화
-        super();
     }
     public Student(int id, String name){
-        super();
         this.id=id;
         this.name=name;
     }
@@ -31,10 +29,5 @@ public class Student {
         //
         Student student = new Student(2019113328, "박근용");
         return student;
-    }
-
-    public static void main(String[] args) {
-        //
-        System.out.println(new Gson().toJson(sample()));
     }
 }
