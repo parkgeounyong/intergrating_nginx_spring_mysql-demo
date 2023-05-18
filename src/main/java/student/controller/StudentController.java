@@ -21,7 +21,16 @@ public class StudentController {
         studentServicelmpl.insert(studentCdo);
     }
     @GetMapping("/test")
-    public StudentCdo test(@RequestParam Long id){
+    public StudentCdo findId(@RequestParam Long id){
         return studentServicelmpl.retriveService(id).toCdo();
     }
+    @PutMapping("/test")
+    public void modify(@RequestParam Long id, @RequestBody StudentCdo studentCdo){
+        studentServicelmpl.modify(id, studentCdo);
+    }
+    @DeleteMapping("/test")
+    public void delete(@RequestParam Long id){
+        studentServicelmpl.delete(id);
+    }
+
 }

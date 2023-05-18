@@ -28,4 +28,13 @@ public class StudentService implements StudentServicelmpl {
     public Student retriveService(Long id) {
         return studentStoreLmpl.retriveStore(id);
     }
+
+    @Override
+    public void modify(Long id, StudentCdo studentCdo) {
+        studentStoreLmpl.modify(id, studentCdo.toDomain());
+    }
+    @Override
+    public void delete(Long id) {
+        studentStoreLmpl.delete(id);
+    }
 }

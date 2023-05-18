@@ -32,4 +32,15 @@ public class StudentStore implements StudentStoreLmpl {
         Optional<StudentJpo> studentJpo=studentStoreJpa.findById(id);
         return studentJpo.get().toDomain();
     }
+
+    @Override
+    public void modify(Long id, Student student) {
+        studentStoreJpa.deleteById(id);
+        studentStoreJpa.save(student.toJpo());
+    }
+
+    @Override
+    public void delete(Long id) {
+        studentStoreJpa.deleteById(id);
+    }
 }

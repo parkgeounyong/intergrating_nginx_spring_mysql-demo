@@ -17,4 +17,7 @@ public class StudentCdo {
     public StudentJpo toJpo(){
         return new StudentJpo(this.id, this.name);
     }
+    public Student toDomain(){
+        return new Student(this.id, this.name);
+    }
 }

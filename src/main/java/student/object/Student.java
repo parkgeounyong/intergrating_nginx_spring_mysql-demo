@@ -23,4 +23,8 @@ public class Student {
         StudentCdo studentCdo=new StudentCdo(this.id, this.name);
         return studentCdo;
     }
+    public StudentJpo toJpo(){
+        StudentJpo studentJpo=new StudentJpo(this.id, this.name);
+        return studentJpo;
+    }
 }

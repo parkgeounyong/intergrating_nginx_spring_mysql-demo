@@ -8,4 +8,6 @@ public interface StudentStoreLmpl {
     //crud
     public void insert(StudentJpo studentJpo);
     public Student retriveStore(Long id);
+    public void modify(Long id, Student student);
+    public void delete(Long id);
 }
