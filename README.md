@@ -16,7 +16,7 @@ For Spring's understanding,
 4. connect between Spring, nodejs
 5. check API by [Insomnia](https://www.google.com/search?q=Insomnia&ei=x4dnZPOcBoOAoATR1p3gAw&ved=0ahUKEwiznLf8y4H_AhUDAIgKHVFrBzwQ4dUDCA8&uact=5&oq=Insomnia&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDIFCC4QgAQyBQgAEIAEMgUIABCABDILCC4QgAQQxwEQ0QMyBQgAEIAEMggILhCABBDUAjIFCAAQgAQ6BAgAEEdKBAhBGABQtgJYtgJglgZoAHADeACAAXaIAXaSAQMwLjGYAQCgAQKgAQHIAQrAAQE&sclient=gws-wiz-serp)
 
-### folder, file Description
+### Folder, File Description
 [porm.xml](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/blob/main/pom.xml) : A dependency is write to define the modules required
 
 [application.yml](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/blob/main/src/main/resources/application.yml) : Set up spring server  and  connect of the DBMS
@@ -24,6 +24,9 @@ For Spring's understanding,
 [ServerApp.java](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/blob/main/src/main/java/student/ServerApp.java) : Server entry point
 
 [object](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/object) : Object class is defined
+- Student.java : domain(basic), Default Object Class
+- StudentCdo.java : The parts that are needed to communicate client, Use to receive values from RestAPI
+- StudentJpo.java : The parts that are needed to communicate DBMS, Use to receive values from DBMS
 
 [controller](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/controller) : REST API is defined
 
