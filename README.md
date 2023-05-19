@@ -15,4 +15,5 @@ For Spring's understanding, the following items were carried out
 4. connect between Spring, nodejs
 
 ### file Description
+[porm.xml](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/blob/main/pom.xml): A dependency is write to define the modules required
 
