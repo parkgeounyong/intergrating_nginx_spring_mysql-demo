@@ -21,10 +21,13 @@ For Spring's understanding,
 
 [application.yml](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/blob/main/src/main/resources/application.yml) : Set up spring server  and  connect of the DBMS
 
-ServerApp.java
+[ServerApp.java](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/blob/main/src/main/java/student/ServerApp.java) : Server entry point
 
-controller
-object
-Service
-Store
+[object](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/object) : Object class is defined
+
+[controller](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/controller) : REST API is defined
+
+[Service](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/Service) : connect between controller and Store, CRUD is defined
+
+[Store](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/Store) : connect between Store and MySQL, 
 
