@@ -33,7 +33,8 @@ For Spring's understanding,
 
 [Service](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/Service) : connect between controller and Store, CRUD is defined
 - StudentServicelmpl.java
-- logic - StudentService.java
+- logic 
+-- StudentService.java
 
 [Store](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/Store) : connect between Store and MySQL, 
 
