@@ -9,7 +9,7 @@
 [![Insomnia](https://img.shields.io/badge/insomnia-black?style=for-the-badge&logo=insomnia)](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo)
 
 ### Projecct Description
-For Spring's understanding, the following items were carried out
+For Spring's understanding, 
 1. REST API
 2. CRUD
 3. connect between Spring, MySql < finish
