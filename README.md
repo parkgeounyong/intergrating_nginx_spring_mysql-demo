@@ -29,12 +29,18 @@ For Spring's understanding,
 - StudentJpo.java : The parts that are needed to communicate DBMS, Use to receive values from DBMS
 
 [controller](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/controller) : REST API is defined
-- StudentController.java : REST API is defined
+- StudentController.java : REST API is defined, connect Service
 
-[Service](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/Service) : connect between controller and Store, CRUD is defined
-- StudentServicelmpl.java
+[Service](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/Service) : connect between controller and Store
+- StudentServicelmpl.java : Interface for connect between StudentController
 - logic 
--- StudentService.java
+- - - StudentService.java : connect Store
 
-[Store](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/Store) : connect between Store and MySQL, 
+[Store](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/Store) : connect between Store and MySQL,  CRUD is defined
+- StudentStoreLmpl.java: Interface for connect between StudentService
+- logic
+- - StudentStore.java : connect DBMS
+- Jpa
+- - StudentStoreJpa.java : extends the JpaRepository interface
+
 
