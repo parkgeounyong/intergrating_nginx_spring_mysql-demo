@@ -16,7 +16,7 @@ For Spring's understanding,
 4. connect between Spring, nodejs
 5. check API by [Insomnia](https://www.google.com/search?q=Insomnia&ei=x4dnZPOcBoOAoATR1p3gAw&ved=0ahUKEwiznLf8y4H_AhUDAIgKHVFrBzwQ4dUDCA8&uact=5&oq=Insomnia&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDIFCC4QgAQyBQgAEIAEMgUIABCABDILCC4QgAQQxwEQ0QMyBQgAEIAEMggILhCABBDUAjIFCAAQgAQ6BAgAEEdKBAhBGABQtgJYtgJglgZoAHADeACAAXaIAXaSAQMwLjGYAQCgAQKgAQHIAQrAAQE&sclient=gws-wiz-serp)
 
-### file Description
+### folder, file Description
 [porm.xml](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/blob/main/pom.xml) : A dependency is write to define the modules required
 
 [application.yml](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/blob/main/src/main/resources/application.yml) : Set up spring server  and  connect of the DBMS
