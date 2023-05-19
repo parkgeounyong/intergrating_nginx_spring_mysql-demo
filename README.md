@@ -34,7 +34,7 @@ For Spring's understanding,
 [Service](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/Service) : connect between controller and Store
 - StudentServicelmpl.java : Interface for connect between StudentController
 - logic 
-- - - StudentService.java : connect Store
+- - StudentService.java : connect Store
 
 [Store](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/tree/main/src/main/java/student/Store) : connect between Store and MySQL,  CRUD is defined
 - StudentStoreLmpl.java: Interface for connect between StudentService
@@ -43,4 +43,5 @@ For Spring's understanding,
 - Jpa
 - - StudentStoreJpa.java : extends the JpaRepository interface
 
+그림 추가 예정
 
