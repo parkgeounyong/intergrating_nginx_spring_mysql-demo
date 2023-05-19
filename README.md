@@ -5,7 +5,7 @@
 
 ### Technologies & Frameworks
 [![Spring](https://img.shields.io/badge/spring-black?style=for-the-badge&logo=spring)](https://spring.io/)
-[![Spring Boot](https://img.shields.io/badge/spring boot-black?style=for-the-badge&logo=spring boot)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/springboot-black?style=for-the-badge&logo=springboot)](https://spring.io/projects/spring-boot)
 [![MySQL](https://img.shields.io/badge/MySQL-black?style=for-the-badge&logo=MySQL)](https://www.mysql.com/)
 [![Insomnia](https://img.shields.io/badge/insomnia-black?style=for-the-badge&logo=insomnia)](https://insomnia.rest/)
 
