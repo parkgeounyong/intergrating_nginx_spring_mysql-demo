@@ -16,6 +16,8 @@ For Spring's understanding,
 3. connect between Spring, MySql 
 4. connect between Spring, nodejs
 5. check REST API by < finish[Insomnia](https://www.google.com/search?q=Insomnia&ei=x4dnZPOcBoOAoATR1p3gAw&ved=0ahUKEwiznLf8y4H_AhUDAIgKHVFrBzwQ4dUDCA8&uact=5&oq=Insomnia&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDIFCC4QgAQyBQgAEIAEMgUIABCABDILCC4QgAQQxwEQ0QMyBQgAEIAEMggILhCABBDUAjIFCAAQgAQ6BAgAEEdKBAhBGABQtgJYtgJglgZoAHADeACAAXaIAXaSAQMwLjGYAQCgAQKgAQHIAQrAAQE&sclient=gws-wiz-serp)
+6. change cdo recive to JSON
+7. make login page
 
 ### Folder, File Description
 [porm.xml](https://github.com/parkgeounyoung/intergrating_nginx_spring_mysql-demo/blob/main/pom.xml) : A dependency is write to define the modules required
