@@ -45,5 +45,3 @@ For Spring's understanding,
 - - StudentStore.java : connect DBMS
 
           
-그림 추가 예정
-
